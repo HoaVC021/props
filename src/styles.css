@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.comment {
+  display: flex;
+}
+
+.comment .avatar {
+  width: 60px;
+  height: 60px;
+  /* border-radius: 20px; */
+}
+.comment .content {
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
